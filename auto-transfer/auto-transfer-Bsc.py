@@ -23,8 +23,8 @@ private_key = "3ddc37fdcd6ba99f9a16206467e459d4009ab30b3b4909a5ba0ca50ea40d2624"
 
 
 #Get balance account
-address = '0x9FAE0B98d66321cc6Ac0B6A35d79b23aD8321976'
-balance = web3.eth.get_balance(address)
+# address = '0x9FAE0B98d66321cc6Ac0B6A35d79b23aD8321976'
+balance = web3.eth.get_balance(account_1)
 # print(balance)
 
 result = web3.fromWei(balance,'ether')
